@@ -12,9 +12,7 @@ int number = scanner.nextInt();
 
 if(number < 0){
 
-System.out.println
-
-( "Error");
+System.out.println("Error");
 
 } else {
 
