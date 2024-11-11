@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PARAN_ACTIVITY_IV {
+ class PARAN_ACTIVITY_IV {
 
     public static void main(String[] args) {
         
