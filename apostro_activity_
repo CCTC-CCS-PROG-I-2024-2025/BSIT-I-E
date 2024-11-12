@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class APOSTRO_ACTIVITY_IV {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter a non-negative integer:");
+        
+        // Read the input
+        int number = sc.nextInt();
+        
+        // Check if the input is non-negative
+        if (number < 0) {
+            System.out.println("Please enter a non-negative integer:");
+        } else {
+            int factorial = 1;
+            // Calculate the factorial
+            for (int i = 1; i <= number; i++) {
+                factorial = factorial * i;
+            }
+            // Print the result
+            System.out.println("Factorial of " + number + " is: " + factorial);
+        }
+        
+        // Close the scanner
+        sc.close();
+    }
+}
