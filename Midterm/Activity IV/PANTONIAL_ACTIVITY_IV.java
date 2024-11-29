@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PANTONIAL_ACTIVITY_IV {
+class PANTONIAL_ACTIVITY_IV {
 
     public static void main(String[] args) {
 
