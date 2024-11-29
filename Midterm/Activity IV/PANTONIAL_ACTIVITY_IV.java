@@ -1,15 +1,9 @@
 import java.util.Scanner;
-
 class PANTONIAL_ACTIVITY_IV {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter a non-negative integer: ");
-
-        int number = scanner.nextInt();
-
+    int number = scanner.nextInt();
         if (number < 0) {
             System.out.println("Error: Factorial is not defined for negative numbers.");
         } else {
