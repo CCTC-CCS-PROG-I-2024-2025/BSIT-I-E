@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BARON_ACTIVITY_IV {
+public class LABAJO_ACTIVITY_IV {
 
     public static void main(String[] args) {
         
