@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ZEPEDA_FINALS{
+public class ZEPEDA_FINAL {
 
     public static void main(String[] args) {
        
