@@ -1,22 +1,17 @@
-import java.util.Scanner;
-public class ESMERO_ACTIVITY_IV {
+class ESMERO_ACTIVITY_IV {
+    public static void main(String[] args){
+        int a = 6;
+        int b = 5;
+        int c = 3;
 
-    public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Enter a non-negative integer: ");
-    
-        int number = scanner.nextInt();
+        int sum = (a+b);
+        int diff = (b-c);
+        int quot = (c/a);
+        int ans = (a*b*c);
 
-        if(number < 0){
-            System.out.println("Error");
-        }   else {
-            int factorial = 1;
-            for(int i = 1; i < number; i++){
-                factorial *=i;
-            }
-            System.out.println(factorial);
-        }
+        System.out.println(sum);
+        System.out.println(diff);
+        System.out.println(quot);
+        System.out.println(ans);
     }
 }
