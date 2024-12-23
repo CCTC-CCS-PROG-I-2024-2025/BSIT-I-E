@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class APOSTRO_FINALS {
 
 
-    static final double PI = 3.14159; 
+    static final double PI = 2.14159; 
     static Scanner scanner = new Scanner(System.in); 
 
     public static void main(String[] args) {
-        System.out.println("=== Comprehensive Java Program ===\n");
+        System.out.println("===Java Program ===);
 
         
         int age = 25;             
