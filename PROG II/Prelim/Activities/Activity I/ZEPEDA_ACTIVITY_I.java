@@ -11,7 +11,7 @@ public class ZEPEDA_ACTIVITY_I {
             names[i] = scanner.nextLine();
         }
 
-        System.out.print("Enter a number (1-5) to display the corresponding name: ");
+        System.out.print("Enter a number (1-5) to display name: ");
         int index = scanner.nextInt();
 
         if (index >= 1 && index <= 5) {
