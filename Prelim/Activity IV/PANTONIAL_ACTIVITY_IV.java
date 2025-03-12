@@ -4,10 +4,10 @@ class PANTONIAL_ACTIVITY_IV {
         int y = 4;
         int z = 3;
 
-        int sum = a + b;
-        int difference = b - c;
-        int product = c * a;
-        int quotient = b / a;
+        int sum = x + y;
+        int difference = y - z;
+        int product = z * x;
+        int quotient = y / x;
 
         System.out.println(sum);
         System.out.println(difference);
