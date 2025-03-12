@@ -1,5 +1,5 @@
  import java.util.Scanner;
-class ARES_ACTIVITY_IV{
+class CABAÑA_ACTIVITY_IV{
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter a non-negative integer:");
