@@ -1,18 +1,17 @@
-import java.util.Scanner;
-
 class PARDILLO_ACTIVITY_IV {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter a non-negative integer:");
-        int number = sc.nextInt();
+public static void main (String[]args) {
+    int x = 5;
+    int y = 3;
+    int z = 2;
 
-        if (number < 0) {
-            System.out.println("Please enter a non-negative integer:");
-        } else {
-            int factorial = 1;
-            for (int i = 1; i <= number; i++) {
-                factorial = factorial * i;
-            }
-            System.out.println(factorial);
-        }
-    }
+    int sum = x + z;
+    int difference = y - x;
+    int product = z * y;
+    int quotient = z / x;
+
+    System.out.println(sum);
+    System.out.println(difference);
+    System.out.println(product);
+    System.out.println(quotient);
+ }  
+}
