@@ -1,6 +1,6 @@
 public class StudentManagementSystem {
 
-    // Method to calculate average grades
+   
     public static double calculateAverage(int[] grades) {
         int sum = 0;
         for (int grade : grades) {
@@ -9,7 +9,7 @@ public class StudentManagementSystem {
         return (double) sum / grades.length;
     }
 
-    // Method to evaluate performance based on average
+  
     public static String evaluatePerformance(double average) {
         if (average >= 90) {
             return "Excellent";
@@ -25,13 +25,13 @@ public class StudentManagementSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Program structure: Menu-driven program
+        
         System.out.println("Welcome to the Student Management System!");
         System.out.println("1. Add Student");
         System.out.println("2. View All Students");
         System.out.println("3. Exit");
 
-        // Variables
+        
         String[] studentNames = new String[10];
         int[][] studentGrades = new int[10][];
         int studentCount = 0;
@@ -41,10 +41,10 @@ public class StudentManagementSystem {
             int choice = scanner.nextInt();
 
             switch (choice) {
-                case 1: // Adding a student
+                case 1: 
                     if (studentCount < studentNames.length) {
                         System.out.print("Enter student name: ");
-                        scanner.nextLine(); // Consume the newline character
+                        scanner.nextLine();
                         String name = scanner.nextLine();
                         studentNames[studentCount] = name;
 
@@ -64,7 +64,7 @@ public class StudentManagementSystem {
                     }
                     break;
 
-                case 2: // Viewing all students
+                case 2: 
                     if (studentCount == 0) {
                         System.out.println("No students to display.");
                     } else {
@@ -81,7 +81,7 @@ public class StudentManagementSystem {
                     }
                     break;
 
-                case 3: // Exit
+                case 3: 
                     System.out.println("Exiting the program. Goodbye!");
                     scanner.close();
                     return;
