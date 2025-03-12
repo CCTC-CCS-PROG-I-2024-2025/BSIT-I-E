@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AdvancedCalculator {
 
-    // Method to perform basic arithmetic operations
+    
     public static double calculate(double num1, double num2, char operator) {
         switch (operator) {
             case '+':
@@ -24,17 +24,17 @@ public class AdvancedCalculator {
         }
     }
 
-    // Method to perform an operation on an array
+    
     public static void processArray(int[] arr, char operation) {
         switch (operation) {
-            case 's': // Sum of elements
+            case 's': 
                 int sum = 0;
                 for (int num : arr) {
                     sum += num;
                 }
                 System.out.println("Sum of elements: " + sum);
                 break;
-            case 'm': // Multiply elements
+            case 'm': 
                 int product = 1;
                 for (int num : arr) {
                     product *= num;
@@ -49,11 +49,11 @@ public class AdvancedCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Variables
+       
         double number1, number2;
         char operator;
 
-        // Program structure and user interaction
+      
         System.out.println("Welcome to the Advanced Calculator!");
         System.out.println("1. Basic Arithmetic Operations");
         System.out.println("2. Work with Arrays");
@@ -63,7 +63,7 @@ public class AdvancedCalculator {
 
         while (choice != 3) {
             switch (choice) {
-                case 1: // Basic arithmetic
+                case 1: 
                     System.out.print("Enter first number: ");
                     number1 = scanner.nextDouble();
                     System.out.print("Enter an operator (+, -, *, /): ");
@@ -75,7 +75,7 @@ public class AdvancedCalculator {
                     System.out.println("Result: " + result);
                     break;
 
-                case 2: // Array operations
+                case 2: 
                     System.out.print("Enter the size of the array: ");
                     int size = scanner.nextInt();
                     int[] array = new int[size];
