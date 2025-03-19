@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BALIGUAT_ACTIVITY {
+public class BALIGUAT_ACTIVITY_II {
 
     public static void main(String[] args) {
         aboutMe();
