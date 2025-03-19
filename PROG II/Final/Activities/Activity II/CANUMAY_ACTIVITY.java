@@ -11,7 +11,7 @@ public class CANUMAY_ACTIVITY {
 
      static void aboutMe() {
         String name = "Richard Canumay";
-        int age = 19;
+        int age = 18;
         String address = "Cabitoonan Toledo City";
 
         System.out.println("My name is " + name + ", I am " + age + " years old, and I live at " + address + ".");
