@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GERALDEZ_ACTIVITY {
+public class GERALDEZ_ACTIVITY_II {
 
     public static void main(String[] args) {
         aboutMe();
