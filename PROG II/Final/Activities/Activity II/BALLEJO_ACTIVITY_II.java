@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BALLEJO_ACTIVITY_II {
+public class BALEJO_ACTIVITY_II {
 
     public static void main(String[] args) {
         aboutMe();
@@ -10,7 +10,7 @@ public class BALLEJO_ACTIVITY_II {
     }
 
      static void aboutMe() {
-        String name = "Renthel Ballejo";
+        String name = "Renthel C. Balejo";
         int age = 21;
         String address = "Daanlungsod, Toledo City";
 
