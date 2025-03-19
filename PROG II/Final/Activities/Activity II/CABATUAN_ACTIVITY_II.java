@@ -10,7 +10,7 @@ public class CABATUAN_ACTIVITY_II {
     }
 
      static void aboutMe() {
-        String name = "kennethcabatuan";
+        String name = "kenneth cabatuan";
         int age = 19;
         String address = "Media once, Toledo City";
 
