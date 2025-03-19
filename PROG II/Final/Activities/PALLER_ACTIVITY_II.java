@@ -11,7 +11,7 @@ public class PALLER_ACTIVITY_II {
 
      static void aboutMe() {
         String name = "Janelle Faith Paller";
-        int age = 18;
+        int age = 20;
         String address = "Sto Nino Mainggit, Toledo City";
 
         System.out.println("My name is " + name + ", I am " + age + " years old, and I live at " + address + ".");
