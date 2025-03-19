@@ -2,11 +2,6 @@ import java.util.Scanner;
 
 public class ZEPEDA_ACTIVITY_II {
 
-    public static void main(String[] args) {
-        aboutMe(); 
-        displayResult(); 
-    }
-
     static void aboutMe() {
         String name = "Zepeda, Rejean Mary";
         int age = 18;
@@ -15,11 +10,16 @@ public class ZEPEDA_ACTIVITY_II {
         System.out.println("My name is " + name + ", I am " + age + " years old, and I live at " + address + ".");
     }
 
-    public static void displayResult() {
+    static void convertFeetToInches(double feet) {
+        double inches = feet * 12;
+        System.out.println("Inches: " + inches);
+    }
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        aboutMe();
         System.out.print("Enter the number of feet: ");
         double feet = scanner.nextDouble();
-        double inches = feet * 12; 
-        System.out.println("Inches: " + inches);
+        convertFeetToInches(feet);
     }
 }
