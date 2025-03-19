@@ -10,9 +10,9 @@ public class CABATUAN_ACTIVITY_II {
     }
 
      static void aboutMe() {
-        String name = "Rex Geraldez";
-        int age = 18;
-        String address = "Talavera, Toledo City";
+        String name = "kennethcabatuan";
+        int age = 19;
+        String address = "Media once, Toledo City";
 
         System.out.println("My name is " + name + ", I am " + age + " years old, and I live at " + address + ".");
     }
