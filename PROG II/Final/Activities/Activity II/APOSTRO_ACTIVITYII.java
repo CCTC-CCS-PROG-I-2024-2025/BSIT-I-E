@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class APOSTRO_ACTIVITYII{
+public class APOSTRO_ACTIVITY_II {
 
     public static void main(String[] args) {
         aboutMe();
