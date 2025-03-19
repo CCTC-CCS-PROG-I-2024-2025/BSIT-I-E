@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AMERILA_ACTIVITY{
+public class AMERILA_ACTIVITY_II{
 
     public static void main(String[] args) {
         aboutMe();
