@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class CANETE_ACTIVITY_III {
-
-    // Convert Celsius to Fahrenheit
+    
     public static double convertToFahrenheit(int celsius) {
         return (celsius * 9.0 / 5) + 32;
     }
