@@ -10,7 +10,7 @@ public class MENDEZ_ACTIVITY_III {
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Enter temperature in Celsius: ");
-        int celsius = scanner.nextInt();
+        double celsius = scanner.nextDouble();
         
         double fahrenheit = convertToFahrenheit(celsius);
         
