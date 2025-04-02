@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Caballero_ACTIVITY_III { 
+public class CABALLERO_ACTIVITY_III { 
     public static double celsiusToFahrenheit(double celsius) {
         return (celsius * 9 / 5) + 32;
     }
