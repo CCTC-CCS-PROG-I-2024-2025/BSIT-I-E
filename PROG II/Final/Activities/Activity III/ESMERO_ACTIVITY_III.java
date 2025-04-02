@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class ESMERO_ACTIVITY_III {
+    
     public static double convertToFahrenheit(double celsius) {
         return (celsius * 9 / 5) + 32;
     }
