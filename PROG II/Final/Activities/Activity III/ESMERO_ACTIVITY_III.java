@@ -9,13 +9,14 @@ public class ESMERO_ACTIVITY_III {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter temperature in Celsius: ");
+     System.out.print("Enter temperature in Celsius: ");
     double celsius = sc.nextDouble();
 
     double fahrenheit = convertToFahrenheit(celsius);
 
     System.out.println("Fahrenheit: " + fahrenheit);
 
-    }
-  
+    scanner.close();
+ 
+    } 
 }
