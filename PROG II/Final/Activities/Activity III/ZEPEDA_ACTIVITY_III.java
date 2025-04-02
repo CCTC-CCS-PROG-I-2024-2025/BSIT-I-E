@@ -12,7 +12,7 @@ public class ZEPEDA_ACTIVITY_III {
         double celsius = scanner.nextDouble();
 
         double fahrenheit = celsiusToFahrenheit(celsius);
-        System.out.println("Temperature: " + fahrenheit + "°F");
+        System.out.println( fahrenheit);
 
     }
 }
